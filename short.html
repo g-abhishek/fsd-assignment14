@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short URL</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/contact"> Contact</a></li>
+            <li><a href="/short"> Short URL</a></li>
+        </ul>
+    </nav>
+
+    <h1>Generates a shorter URL</h1>
+    <form action="/createshort" method="POST">
+        <div>
+            <label for="url">URL</label>
+            <input type="text" name="url" id="url" required />
+        </div>
+        <input type="submit" value="Submit" />
+    </form>
+   
+</body>
+</html>
